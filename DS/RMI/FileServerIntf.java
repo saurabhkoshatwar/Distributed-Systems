@@ -2,6 +2,6 @@ import java.rmi.*;
 
 	 public interface FileServerIntf extends Remote 
 	 {	 	
-		String listfiles() throws RemoteException;
+		String listfiles(String inp) throws RemoteException;
 	 }
 
